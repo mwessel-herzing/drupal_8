@@ -9,7 +9,8 @@
         "drush/drush": "^9.5",
         "drupal/examples": "1.x-dev",
         "drupal/ctools": "^3.0",
-        "drupal/panels": "^4.3"
+        "drupal/panels": "^4.3",
+        "drupal/panelizer": "^4.1"
     },
     "replace": {
         "drupal/core": "^8.6"
