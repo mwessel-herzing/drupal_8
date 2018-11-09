@@ -2,3 +2,7 @@
 \.idea/
 
 www/sites/default/files/
+www/vendor/*
+
+
+
