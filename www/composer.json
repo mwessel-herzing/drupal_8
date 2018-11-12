@@ -10,7 +10,8 @@
         "drupal/examples": "1.x-dev",
         "drupal/ctools": "^3.0",
         "drupal/panels": "^4.3",
-        "drupal/panelizer": "^4.1"
+        "drupal/panelizer": "^4.1",
+        "drupal/console": "~1.0"
     },
     "replace": {
         "drupal/core": "^8.6"
