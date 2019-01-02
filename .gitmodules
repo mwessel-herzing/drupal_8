@@ -10,6 +10,3 @@
 [submodule "www/modules/custom/herzing_functions"]
 	path = www/modules/custom/herzing_functions
 	url = git@github.com:herzing-web/herzing_functions_d8.git
-[submodule "www/modules/client_forms_fields"]
-	path = www/modules/client_forms_fields
-	url = git@github.com:herzing-web/client_forms_fields.git
