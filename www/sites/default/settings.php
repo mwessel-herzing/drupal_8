@@ -765,9 +765,10 @@ $settings['entity_update_batch_size'] = 50;
  * Keep this code block at the end of this file to take full effect.
  */
 #
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+  include $app_root . '/' . $site_path . '/settings.local.php';
+}
+
 $databases['default']['default'] = array (
   'database' => 'drupal8',
   'username' => 'drupal8',
@@ -779,3 +780,6 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $config_directories['sync'] = 'sites/default/files/config_FSzwqzVRBkqFa05TruQotYtzbkqT5gQPArELt1hVmyspJ-w6bPT-hBfIEEGJs2Y_B3p63qx3HQ/sync';
+
+// Show all error messages, with backtrace information.
+$config["system.logging"]["error_level"] = "verbose";
