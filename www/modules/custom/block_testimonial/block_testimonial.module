@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains block_testimonial.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function block_testimonial_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the block_testimonial module.
+    case 'help.page.block_testimonial':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Manage testimonials and display  them in a block') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function block_testimonial_theme() {
+  return [
+    'block_testimonial' => [
+      'render element' => 'children',
+    ],
+  ];
+}
