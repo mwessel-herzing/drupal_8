@@ -2,3 +2,6 @@ block_testimonial:
   site_url: "https://www.herzing.edu"
   site_path: "api/get/testimonials"
   log_calls: 0
+  campus_filter: ""
+  area_filter: ""
+  program_filter: ""
