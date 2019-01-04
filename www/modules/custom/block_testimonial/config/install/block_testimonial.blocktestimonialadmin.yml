@@ -1,2 +1,4 @@
 block_testimonial:
-  endpoint_path: "https://www.herzing.edu/"
+  site_url: "https://www.herzing.edu"
+  site_path: "api/get/testimonials"
+  log_calls: 0
