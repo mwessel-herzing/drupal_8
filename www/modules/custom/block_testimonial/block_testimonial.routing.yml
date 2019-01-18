@@ -1,0 +1,11 @@
+
+block_testimonial.block_testimonial_admin:
+  path: '/admin/config/block_testimonial/blocktestimonialadmin'
+  defaults:
+    _form: '\Drupal\block_testimonial\Form\BlockTestimonialAdmin'
+    _title: 'BlockTestimonialAdmin'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+
