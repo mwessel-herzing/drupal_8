@@ -13,3 +13,9 @@
 [submodule "www/modules/custom/client_forms_fields"]
 	path = www/modules/custom/client_forms_fields
 	url = git@github.com:herzing-web/client_forms_fields_d8.git
+[submodule "www/modules/custom/client_hub"]
+	path = www/modules/custom/client_hub
+	url = git@github.com:herzing-web/client_hub.git
+[submodule "www/modules/custom/client_catalog"]
+	path = www/modules/custom/client_catalog
+	url = git@github.com:herzing-web/client_catalog.git
