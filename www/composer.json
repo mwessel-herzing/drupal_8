@@ -12,7 +12,8 @@
         "drupal/panels": "^4.3",
         "drupal/panelizer": "^4.1",
         "drupal/console": "~1.0",
-        "twig/twig": "1.37.1"
+        "twig/twig": "1.37.1",
+        "drupal/token": "^1.5"
     },
     "replace": {
         "drupal/core": "^8.6"
