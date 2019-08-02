@@ -1,0 +1,5 @@
+name: 'Hub Test'
+type: module
+description: 'Test Hub hooks and functions'
+core: 8.x
+package: 'Herzing Test'
