@@ -22,3 +22,6 @@
 [submodule "www/modules/custom/client_catalog_courses"]
 	path = www/modules/custom/client_catalog_courses
 	url = git@github.com:herzing-web/client_catalog_courses.git
+[submodule "www/modules/custom/element_campusprogram"]
+	path = www/modules/custom/element_campusprogram
+	url = git@github.com:herzing-web/element_campusprogram.git
