@@ -25,3 +25,6 @@
 [submodule "www/modules/custom/element_campusprogram"]
 	path = www/modules/custom/element_campusprogram
 	url = git@github.com:herzing-web/element_campusprogram.git
+[submodule "www/modules/custom/webform_formsapi"]
+	path = www/modules/custom/webform_formsapi
+	url = git@github.com:herzing-web/webform_formsapi.git
