@@ -10,3 +10,5 @@ www/vendor/*
 www/sites/default/settings\.php
 
 www/sites/settings\.local\.php
+
+*.sql
