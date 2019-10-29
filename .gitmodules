@@ -28,3 +28,6 @@
 [submodule "www/modules/custom/webform_formsapi"]
 	path = www/modules/custom/webform_formsapi
 	url = git@github.com:herzing-web/webform_formsapi.git
+[submodule "www/modules/custom/field_hub_reference"]
+	path = www/modules/custom/field_hub_reference
+	url = git@github.com:herzing-web/field_hub_reference.git
