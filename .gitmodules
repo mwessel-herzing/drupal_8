@@ -31,3 +31,9 @@
 [submodule "www/modules/custom/field_hub_reference"]
 	path = www/modules/custom/field_hub_reference
 	url = git@github.com:herzing-web/field_hub_reference.git
+[submodule "www/modules/custom/hub_synch"]
+	path = www/modules/custom/hub_synch
+	url = git@github.com:herzing-web/hub_synch.git
+[submodule "www/modules/custom/hub_synch_campus"]
+	path = www/modules/custom/hub_synch_campus
+	url = git@github.com:herzing-web/hub_synch_campus.git
